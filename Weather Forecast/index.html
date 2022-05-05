@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Dự báo thời tiết</title>
+	<script src="Javascript/all.min.js"></script>
+	<script src="Javascript/moment.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+	 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="index.css"/>
+</head>
+
+<body>
+	<!-- Nội dung container  -->
+	<div class="container">
+		
+		<!-- Nội dung main section  -->
+		<div class="main_section" >
+			<div class="search-bar">
+				<i class="fas fa-search"></i>
+				<input class="textsearch" type="text" placeholder="Tìm kiếm thành phố .... " >
+			</div>
+			<div class="info-wrapper">
+				<div class="city-name">--</div>
+				<div class="weather-state">--</div>
+				<image src=" http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="weather-icon"></image>
+				<div class="temperature">--</div>
+			</div>
+		</div>
+		
+		<!-- Nội dung info_section  -->
+		<div class="info_section">
+			<div class="row">
+				<div class="item">
+					<div class="label">MT Mọc</div>
+					<div class="value sunrise">--</div>
+				</div>
+				<div class="item">
+					<div class="label">MT Lặn</div>
+					<div class="value sunset">--</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="item">
+					<div class="label">Độ Ẩm</div>
+					<div class="value"><span class="humidity">--</span>%</div>
+				</div>
+				<div class="item">
+					<div class="label">Gió</div>
+					<div class="value"><span class="wind-speed">--</span> km/h</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="Javascript/index.js"></script>
+</body>
+</html>
